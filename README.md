@@ -61,3 +61,28 @@ Real-Time Feedback Mechanisms: These algorithms adapt based on incoming data, al
 ### Conclusion
 The algorithms in the RockBurst.AI codebase work together to create a comprehensive toolkit for data exploration. By facilitating data preprocessing, enabling sophisticated statistical analysis, and providing effective visualization tools, they empower users to derive meaningful insights from complex datasets. This cohesive approach aligns with the overarching goal of making data analysis accessible and insightful for both novice and experienced users.
 
+## Requirements
+    'python>=3.7'
+    'scikit-learn==0.23.2'
+    'numpy'
+    'pandas'
+    'seaborn'
+    'scipy'
+    'pickle'
+    'datetime'
+    'matplotlib'
+    'hdbscan'
+    'glob'
+    'tensorly'
+
+## Documentation
+- [Preprocessing. Clusterization](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/docs/cluster.md);
+- [Preprocessing. Grid](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/docs/grid.md);
+- [Launch](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/docs/launcher.md).
+
+## Examples
+- [Low-level functions example](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/examples/simple_example.py);
+- [High-level launcher example](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/examples/launcher_example.py).
+
+## Tutorials
+- [Launcher tutorial (in russian)](https://github.com/ITMO-NSS-team/SeismicDeformation/blob/main/examples/launcher_tutorial.ipynb)
